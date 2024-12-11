@@ -1,0 +1,398 @@
+/* *{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    }
+    header{
+    background-color: rgba(90, 59, 90, 0.4);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
+    header nav .left a{
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    }
+    header nav .left a:hover{
+    color: var(--primary);
+    }
+    header nav {
+    padding: 2rem 0;
+    }
+    header nav .logo{
+    margin-right: 3rem;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+header {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    background: linear-gradient(to bottom, #CFBCF9, #FFAEF1);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+#about {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #CFBCF9, #FFAEF1);
+     
+    
+}
+
+#projects {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #CFBCF9, #FFAEF1);
+    text-align: center;
+    img {
+        width: 50%;   
+        height: auto; 
+      }
+      
+}
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+
+#skills {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #CFBCF9, #FFAEF1);
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#skills li {
+    font-size: 1.2rem;
+}
+
+
+#contact {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #CFBCF9, #FFAEF1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: rgba(79, 210, 214, 0.308);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.my-button {
+    padding: 10px 20px;         
+    font-size: 16px;             
+    background-color: #dd6dff94; 
+    color: white;               
+    border: none;               
+    border-radius: 5px;         
+    cursor: pointer;            
+    transition: background-color 0.3s; 
+  }
+  
+  .my-button:hover {
+    background-color: #45a049;  
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;  /* Light pastel background */
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #a8d0e6;  /* Pastel blue background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #f0f0f0;  /* Soft white hover color */
+  }
+  
+  .intro h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ffb6b9;  /* Pastel pink button */
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff9b9d;  /* Slightly darker pastel pink on hover */
+  }
+  
+  /* About Section */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #skills ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  #skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    background-color: #b5e7a0;  /* Pastel green background for skills */
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Project Section */
+  .project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff8e1;  /* Pastel yellow for card background */
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #a8d0e6;  /* Pastel blue for project links */
+    font-weight: bold;
+  }
+  
+  .project-link:hover {
+    color: #75c7e2;  /* Slightly darker pastel blue on hover */
+  }
+  
+  /* Contact Section */
+  form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #ffb6b9;  /* Pastel pink for form button */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  form button:hover {
+    background-color: #ff9b9d;  /* Slightly darker pastel pink on hover */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0e5d8;  /* Light pastel beige footer */
+    color: #333;
+  }
+  
