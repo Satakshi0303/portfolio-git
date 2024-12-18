@@ -1,186 +1,182 @@
-
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;  /* Light pastel background */
-    color: #333;
-  }
-  
-  /* Header */
-  header {
-    background-color: #a8d0e6;  /* Pastel blue background */
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  nav ul li a:hover {
-    color: #f0f0f0;  /* Soft white hover color */
-  }
-  
-  .intro h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-  }
-  
-  .intro p {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .cta-button {
-    background-color: #ffb6b9;  /* Pastel pink button */
-    color: white;
-    padding: 10px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-  }
-  
-  .cta-button:hover {
-    background-color: #ff9b9d;  /* Slightly darker pastel pink on hover */
-  }
-  
-  /* About Section */
-  section {
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  #skills ul {
-    list-style: none;
-    text-align: center;
-  }
-  
-  #skills ul li {
-    display: inline-block;
-    margin: 10px 20px;
-    background-color: #b5e7a0;  /* Pastel green background for skills */
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  /* Project Section */
-  .project-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .card {
-    background-color: #fff8e1;  /* Pastel yellow for card background */
-    padding: 20px;
-    width: 300px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .card h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .project-link {
-    text-decoration: none;
-    color: #a8d0e6;  /* Pastel blue for project links */
-    font-weight: bold;
-  }
-  
-  .project-link:hover {
-    color: #75c7e2;  /* Slightly darker pastel blue on hover */
-  }
-  
-  /* Contact Section */
-  form {
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form input,
-  form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  form button {
-    background-color: #ffb6b9;  /* Pastel pink for form button */
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-  }
-  
-  form button:hover {
-    background-color: #ff9b9d;  /* Slightly darker pastel pink on hover */
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f0e5d8;  /* Light pastel beige footer */
-    color: #333;
-  }
-  .images{
-    justify-content: top left;
-    border-radius: 0.5px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  }
-  .profile-picture img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Makes the image round */
-    object-fit: cover; /* Ensures the image fits the round shape */
-    border: 4px solid #0078d7; /* Optional: Adds a border around the image */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;  /* Light pastel background */
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #a8d0e6;  /* Pastel blue background */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #f0f0f0;  /* Soft white hover color */
+}
+
+.intro h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ffb6b9;  /* Pastel pink button */
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-button:hover {
+  background-color: #ff9b9d;  /* Slightly darker pastel pink on hover */
+}
+
+/* About Section */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#skills ul {
+  list-style: none;
+  text-align: center;
+}
+
+#skills ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  background-color: #b5e7a0;  /* Pastel green background for skills */
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Project Section */
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff8e1;  /* Pastel yellow for card background */
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #a8d0e6;  /* Pastel blue for project links */
+  font-weight: bold;
+}
+
+.project-link:hover {
+  color: #75c7e2;  /* Slightly darker pastel blue on hover */
+}
+
+/* Contact Section */
+form {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #ffb6b9;  /* Pastel pink for form button */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+form button:hover {
+  background-color: #ff9b9d;  /* Slightly darker pastel pink on hover */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0e5d8;  /* Light pastel beige footer */
+  color: #333;
+}
+.images{
+  justify-content: top left;
+  border-radius: 0.5px;
+
+}
+.profile-picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image fits the round shape */
+  border: 4px solid #0078d7; /* Optional: Adds a border around the image */
 }
 .container{
-  margin-top: 40px;
-  margin-left: 40px;
+margin-top: 40px;
+margin-left: 40px;
 }
-
